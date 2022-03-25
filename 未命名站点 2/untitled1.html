@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+.chakra-ui-light{
+  background-image: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%) !important;
+  background-attachment: fixed;
+}
+.main-box {
+  border-radius: 15px !important;
+}
+.chakra-ui-light .main-box {
+  background-color: white !important;
+}
+.chakra-ui-light .readme-box {
+  background-color: white !important;
+}
+.readme-box {
+  border-radius: 15px !important;
+}
+</style>
+
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+<script>
+    L2Dwidget.init({
+        "model": {
+            jsonPath: "https://blog.imlete.cn/live2d/assets/weier.model.json",<!--这里改模型，前面后面都要改-->
+            "scale": 0.8
+        },
+        "display": {
+            "position": "right",<!--设置看板娘的上下左右位置-->
+            "width": 50,
+            "height": 100,
+            "hOffset": 50,
+            "vOffset": -10
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 1,<!--设置透明度-->
+            "opacityOnHover": 0.2
+        }
+    });
+</script>
+</head>
+
+<body>
+</body>
+</html>
+
+
+
